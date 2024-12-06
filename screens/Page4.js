@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function Page1() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sayfa 1</Text>
+      <Text style={styles.text}>YoakeNoHana IS HERE</Text>
     </View>
   );
 }
