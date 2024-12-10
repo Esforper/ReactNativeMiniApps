@@ -8,6 +8,7 @@ import Page1 from './screens/Page1';
 import Page2 from './screens/Page2';
 import Page3 from './screens/Page3';
 import Page4 from './screens/Page4';
+import Page5 from './screens/Page5';
 
 // Drawer Navigator oluşturun
 // test
@@ -21,6 +22,7 @@ export default function App() {
         <Drawer.Screen name="Sayfa 20" component={Page2} />
         <Drawer.Screen name="Sayfa 30" component={Page3} />
         <Drawer.Screen name="Sayfa 40" component={Page4} />
+        <Drawer.Screen name="Sayfa 50" component={Page5} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
