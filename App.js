@@ -17,10 +17,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Sayfa 1">
-        <Drawer.Screen name="Sayfa 1" component={Page1} />
-        <Drawer.Screen name="Sayfa 2" component={Page2} />
-        <Drawer.Screen name="Sayfa 3" component={Page3} />
-        <Drawer.Screen name="Sayfa 4" component={Page4} />
+        <Drawer.Screen name="Sayfa 10" component={Page1} />
+        <Drawer.Screen name="Sayfa 20" component={Page2} />
+        <Drawer.Screen name="Sayfa 30" component={Page3} />
+        <Drawer.Screen name="Sayfa 40" component={Page4} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
