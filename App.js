@@ -10,6 +10,7 @@ import Page3 from './screens/Page3';
 import Page4 from './screens/Page4';
 
 // Drawer Navigator oluşturun
+// test
 const Drawer = createDrawerNavigator();
 
 export default function App() {

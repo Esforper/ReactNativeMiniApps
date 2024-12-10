@@ -128,7 +128,7 @@ export default function Page1() {
   if (gameMode === "SELECT") {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>YoakeNoHana Kızmabirader</Text>
+        <Text style={styles.title}>Mini Oyun</Text>
         <Text style={styles.subtitle}>Nasıl oynamak istersin?</Text>
         <TouchableOpacity style={styles.choiceButton} onPress={() => setGameMode("PLAYER")}>
           <Text style={styles.choiceButtonText}>Gerçek Oyuncuya Karşı</Text>
